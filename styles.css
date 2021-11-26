@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Rozha+One&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #BF8F3A;
+    --animate-delay: 1s;
+    
+}
+
+
+
+
+
+.container{
+    width: 80%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.title{
+    font-family: 'Rozha One', serif;
+    
+    color: #BF8F3A;
+    font-size: 50px;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #0C4933;
+    
+}
+
+nav{
+   
+    text-decoration: none;
+    padding-top: 40px;
+    
+}
+
+.main_menu{
+    text-align: center;
+    
+
+}
+
+.menu_link{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 50px;
+    color: #F9CCCC;
+}
+
+.introduction{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 90vh;
+    
+    gap: 50px;
+    background-color: #0C4933;
+
+}
+
+
+.image_perfil{
+    width: 500px;
+    
+}
+
+
+.text_description{
+    width: 800px;
+    color: white;
+    height: 100px;
+   
+}
+
+.graphic_design{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    
+    text-align: center;
+    /* background: lightblue; */
+    
+}
+
+.design_title{
+    font-size: 50px;
+}
+
+
+
+.design_text{
+    
+    width: 800px;
+    color: bla;
+    height: 200px;
+}
+
+.tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+    margin: auto;
+}
+
+.design_cards{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    justify-content:space-evenly;
+    align-content: stretch;
+    
+    
+    /* background-color: lightsalmon; */
+}
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+   
+    
+    /* background: lightseagreen; */
+
+}
+
+.design_title{
+    font-family: 'Rozha One', serif;
+    
+    color: #0C4933;
+    font-size: 50px;
+}
+
+.design_text_description{
+    color: black;
+    
+}
+
+.cards_icon{
+    margin: 0 auto;
+}
+
+.info_description{
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px;
+}
+
+/* services */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80%;
+    height: 800px;
+
+    /* background-color: lightgray; */
+}
+
+.services_cards{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.service_card{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding: 30px;
+    border-style: solid;
+    border-width: 2px;
+    
+    align-items: flex-start;
+   
+    
+    background: #BF8F3A;
+
+}
+
+.services_title{
+    font-family: 'Rozha One', serif;
+    text-align: left;
+    color: #F9D5C8;
+    font-size: 30px;
+
+}
+
+.services_text{
+    color: black;
+}
+
+.services_text_description{
+    color: white;
+    text-align: left;
+}
+
+/* galeria de imagenes */
+
+
+.gallery_section{
+    width: 100%;
+    height: 300px;
+    background-color: #F9D5C8;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.gallery_images{
+    width: 100%;
+    text-align: center;
+    
+    /* background-color: cornflowerblue; */
+}
+
+.title_gallery{
+    font-family: 'Rozha One', serif;
+    font-size: 80px;
+    height: 200px;
+    color: #0C4933;
+}
+
+.gallery_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_gallery_1{
+    width: 50%;
+    background-color: crimson;
+    height: 600px;
+    object-fit: cover;
+}
+
+.image_gallery_2{
+    width: 33.33%;
+    background-color: crimson;
+    object-fit: cover;
+    height: 400px;
+}
+
+
+.services_gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    
+    align-items: stretch;
+    flex-shrink: (default "1");
+}
+
+.cards_icon{
+    width: 100px;
+}
+
+.image_services_gallery{
+    width: 200px;
+    background-color: coral;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    object-fit: cover;
+    
+}
+
+
+
+.icon{
+    width: 24px;
+
+}
+
+
+/* contacto */
+
+.contact{
+    width: 100%;
+    background-color: #0C4933;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title_contact{
+    font-family: 'Rozha One', serif;
+    text-align: left;
+    color: #F9D5C8;
+    font-size: 100px;
+}
+
+.contact_info{
+    width: 600px;
+    display: flex;
+    
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    /* background-color: cyan; */
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #0C4933;
+    height: 40px;
+}
+
+
